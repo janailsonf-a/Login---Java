@@ -3,10 +3,8 @@ import java.util.Scanner;
 public class Login {
 
     public static void main(String[] args) {
-
         String usuarioCorreto = "admin";
         String senhaCorreta = "12345";
-
 
         int tentativasMaximas = 3;
         int tentativasAtuais = 0;
@@ -21,7 +19,6 @@ public class Login {
 
             System.out.print("👤 Digite o nome de usuário: ");
             String usuarioDigitado = scanner.nextLine();
-
 
             System.out.print("🔑 Digite a senha: ");
             String senhaDigitada = scanner.nextLine();
@@ -41,6 +38,7 @@ public class Login {
                 }
             }
         }
+
         scanner.close();
 
         System.out.println("\n----------------------------------");
